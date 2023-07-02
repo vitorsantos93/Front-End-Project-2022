@@ -1,0 +1,40 @@
+.lupa {
+    position: absolute;
+}
+
+.duration {
+    transition-duration: 2500ms;
+}
+
+.duration_1 {
+    transition-duration: 10000ms;
+}
+
+.duration_2{
+    transition-duration: 3000ms;
+}
+
+.duration_3{
+    transition-duration: 1000ms;
+}
+
+.stretch{
+    width: 45rem;
+}
+
+.stretch:focus{
+    background-color: rgba(255, 255, 255);
+    outline: 5px !important;
+    box-shadow: none !important
+}
+
+.placeholder{
+    background-color: rgba(209, 209, 209);
+    color: rgba(0, 0, 0, .8)
+}
+
+
+input::placeholder{
+    color: rgba(0, 0, 0, 0.4)
+}
+

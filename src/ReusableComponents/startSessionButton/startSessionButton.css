@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&display=swap');
+
+.startSessionButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cc5500;
+    margin-right: 1.5rem;
+    border-radius: 5px;
+    padding: 4px 10px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.startSessionButton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+    background-color: #cc5500;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.userDataWindow{
+    position: fixed;
+    top: 6rem;
+    right: 1.5rem;
+    background-color: rgba(255, 255, 255, .97);
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, .3);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+    z-index: 1;
+    animation: fadeIn 300ms;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 0.96
+    }
+}
+
+.inputUserData{
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    width: 300px;
+    margin-bottom: 2.5rem;
+    background-color: rgba(255, 255, 255, .05)
+}
+
+.inputUserData:focus {
+    background-color: rgba(255, 255, 255, .2);
+    outline: 5px !important;
+    box-shadow: none !important
+}
+
+.titleSignUp {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.submitButton {
+    background-color: #cf5c0a;
+    color: white;
+    padding: 4px 9px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+   background-color: #cf5c0a;
+   color: white;
+   padding: 4px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition-duration: 300ms;
+}
+
+.iconColor {
+    color: #cc5500;
+}
+
+.iconColor:hover{
+    color: white;
+    background-color: #cc5500;
+    transition-duration: 200ms;
+    padding: 5px;
+    border-radius: 10px;
+}

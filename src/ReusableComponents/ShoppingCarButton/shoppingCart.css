@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&display=swap');
+
+.changebck {
+    background-color: #cd5500;
+}
+
+.originalbck {
+    background-color:#fff;
+}
+
+.checkoutContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6rem;
+    right: -23.3rem;
+    background-color: rgba(209, 209, 209, .05);
+    border-radius: 15px;
+    padding: 2.5rem 2rem;
+    color: rgb(92, 99, 109);
+}
+
+.checkoutContainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6rem;
+    right: 1.5rem;
+    background-color: rgba(255, 255, 255, .95);
+    border-radius: 15px;
+    padding: 2.5rem 2rem;
+    color: rgb(92, 99, 109);
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, .3);
+}
+
+.containerEmpty {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem .5rem;
+}
+
+
+.checkoutContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6rem;
+    right: 1.5rem;
+    background-color: rgba(255, 255, 255);
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    color: rgb(92, 99, 109);
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, .3);
+    transition-duration: 300ms;
+    overflow-y: scroll;
+    float: left;
+}
+
+.checkoutContainer3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 6rem;
+    right: -45rem;
+    background-color: rgba(255, 255, 255);
+    border-radius: 15px;
+    padding: 1rem 1rem;
+    color: rgb(92, 99, 109);
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, .3);
+    transition-duration: 400ms;
+}
+
+.checkoutContainer2 h2 {
+    display: flex;
+    font-size: 1.5rem;
+    font-family: 'Be Vietnam Pro', serif;
+}
+
+.checkoutContainer3 h2 {
+    display: flex;
+    font-size: 1.5rem;
+    font-family: 'Be Vietnam Pro', serif;
+}
+
+
+.checkoutContainer h2{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.checkoutContainer1 h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.border {
+    border-radius: 5px;
+    border: none;
+}
+
+.shoppingCartBtn {
+    margin-top: 2.5rem;
+    padding: .5rem;
+    background-color: #cc5500;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+.shoppingCartBtn:hover {
+    padding: .5rem 1rem;
+    transition-duration: 200ms;
+}
+
+.checkoutContainer3 img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, .4);
+}
+
+.productName {
+    margin-left: .75rem;
+    font-family: 'Be Vietnam Pro', serif;
+    font-size: 1rem;
+    color: #cc5500;
+    
+}
+.extraList{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-top: -.01rem;
+}
+
+.extraList li{
+    font-size: .8rem;
+    padding-left: .2rem;
+    padding-top: .2rem;
+}
+
+.extratitle{
+    font-size: .85rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.imageProductCheckOut{
+   height: 4rem;
+   width: 5rem;
+   border-radius: 10px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   box-shadow: 0 5px 6px rgba(0, 0, 0, .4);
+}
+
+.singleDiv{
+    margin-top: -1rem;
+}
+
+.minusBtn {
+    top:0;
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+}
+
+.plusBtn {
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+}
+
+.selectedProduct {
+    width: 50rem;
+}
+
+.productContainer {
+    width: 30rem;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&display=swap');
+
+.iconColor{
+    color: #cc5500;
+}
+
+.titleC {
+    margin: 0 auto;
+    font-size: 3rem;
+    padding-top: .50rem;
+    color: rgb(143, 143, 143);
+}
+
+.price1 {
+    font-family: 'Be Vietnam Pro', serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.total {
+    font-size: 3rem;
+    font-family: 'Be Vietnam Pro', serif;
+    color: gray;
+}
+
+.euroColor {
+    color: #cc5500;
+}

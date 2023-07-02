@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&display=swap');
+
+.userLocationContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 4rem;
+    left: 6rem;
+    padding: 30px 80px;
+}
+
+.userLocationContainer h2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(92, 99, 109, 0.5);
+}
+
+.inputUserLocation {
+    display: flex;
+    width: 33.5rem;
+    height: 2rem;
+    border: 1px solid rgba(170, 170, 170, 0.4);
+    border-radius: 4px;
+    padding: 2px 30px;
+}
+
+.addressButton {
+    position: absolute;
+    top: 13.30rem;
+    left: 4rem;
+    background: #CC5500;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6.7px;
+    cursor: pointer;
+}

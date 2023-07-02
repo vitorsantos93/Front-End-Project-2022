@@ -1,0 +1,8 @@
+.footerContainer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 20px 70px;
+}

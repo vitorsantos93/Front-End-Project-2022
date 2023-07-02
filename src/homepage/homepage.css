@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+* {
+    scroll-behavior: smooth;
+}
+.HeaderContainer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.headerDiv {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 0.60rem 0;
+    transition: 500ms;
+}
+
+.headerDiv1 {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 0.60rem 0;
+    background-color: /* #ABB0B4 */ rgba(104, 104, 104, 0.7);
+    transition: 500ms;
+}
+
+
+.menuDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuDiv::after{
+    display: flex;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 3.75rem;
+    line-height: 1;
+    color: #CC5500;
+    text-shadow: 2px 2px 5px rgb(173, 173, 173);
+    font-weight: bold;
+    font-family: 'Vujahday Script', cursive;
+}
+
+.image {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+.secondaryTitle{
+    position: absolute;
+    top: 26rem;
+    font-size: 3rem;
+}
+
+.navBarLayout {
+    width: 10rem;
+    position: fixed;
+    top: 6rem;
+    left: -12rem;
+    transition-duration: 300ms;
+}
+
+
+.navBarLayout1 {
+    background-color: rgba(104, 104, 104, 0.2);
+    position: fixed;
+    top: 6rem;
+    left: 0rem;
+    font-family: 'Arimo', sans-serif;
+    border-radius: 0 10px 10px 0;
+    transition-duration: 300ms;
+    z-index: -1;
+}
+
+.items {
+    padding: 15px 15px;
+    color: rgb(55, 65, 81);
+    width: 8rem;
+}
+
+.items1 {
+    padding: 15px 15px;
+    color: rgb(55, 65, 81);
+    width: 12rem;
+}
+
+.items:hover {
+    width: 15rem;
+    box-shadow: -1px 3px 3px rgb(92, 99, 109);
+    background-color: rgb(14, 14, 14);
+    color: white;
+    transition-duration: 400ms;
+    font-size: 1.2rem;
+}
+
+.items1:hover {
+    width: 15rem;
+    box-shadow: -1px 3px 3px rgb(92, 99, 109);
+    background-color: #616161;
+    color: white;
+    transition-duration: 400ms;
+    font-size: 1.2rem;
+    border-radius: 0 0 10px 0;
+}
+
